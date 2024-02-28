@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/banking_application
+    username: postgres
+    password: Justdoit@0405
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    show-sql: true
+
+    hibernate:
+      ddl-auto: update
+
+    properties:
+      hibernate:
+        database-platform: org.hibernate.dialect.PostgreSQL10Dialect
+
+
