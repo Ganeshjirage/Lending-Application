@@ -5,6 +5,10 @@ public class ResourceNotFoundException extends RuntimeException {
 		super(name + " NOT found with ID : " + id);
 	}
 
+	public ResourceNotFoundException(String name, Long id) {
+		super(name + " NOT found with ID : " + id);
+	}
+
 	public ResourceNotFoundException(String message) {
 		super(message);
 	}
